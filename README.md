@@ -10,9 +10,11 @@ Please let me know of any changes to improve this script and automate the tediou
 
 Change these variables in the script for your specific system:
 
-line 64: ipvar HOME_NET X.X.X.X <---- change to IDS Server IP.
-line 72 & 78 & 122: <interface> <----- change to the listening interface (eg. eth0)
-line 93 & 94: <your oinkcode> <----- change to your oinkcode given when registered for Snort
+-- line 64: ipvar HOME_NET X.X.X.X <---- change to IDS Server IP.
+
+-- line 72 & 78 & 122: interface <----- change to the listening interface (eg. eth0)
+
+-- line 93 & 94: your oinkcode <----- change to your oinkcode given when registered for Snort
 
 
 
