@@ -106,7 +106,8 @@ sudo sed -i "150s%IPRVersion=/usr/local/etc/snort/rules/iplists%IPRVersion=/etc/
 sudo /usr/local/bin/pulledpork.pl -c /etc/snort/pulledpork.conf -l &&
 pause &&
 
-# Create Crontab for pulledpork updates.
+# Create Crontab for pulledpork updates. Make sure to write our crontab when prompted.
+crontab -e &&
 crontab -l > pulledporkcron &&
 echo "30 02 * * * /usr/local/bin/pulledpork.pl -c /etc/snort/pulledpork.conf -l" >> pulledporkcron &&
 crontab pulledporkcron &&
