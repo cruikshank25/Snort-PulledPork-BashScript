@@ -10,7 +10,7 @@ I will not be held responsible for damage to any systems this script causes. Use
 
 Please let me know of any changes to improve this script and automate the tedious task on installing snort
 
-Change these variables in the script for your specific system:
+# Change these variables in the script for your specific system:
 
 -- line 64: ipvar HOME_NET X.X.X.X <---- change to IDS Server IP.
 
